@@ -5,6 +5,7 @@
 #include "Encoder.h"
 #include "Motor.h"
 #include "Serial.h"
+#include <stm32f10x_tim.h>
 void PID(void);
 double Speed;			//定义速度变量
 uint8_t KeyNum;
